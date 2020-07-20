@@ -247,6 +247,7 @@ nav {
     padding: 1rem 2.5rem;
     display: inline-block;
     margin-top: 2.5rem;
+    transition: ease-in-out;
     transition: background-color 650ms;
     font-weight: 500;
     letter-spacing: 2px;
@@ -309,6 +310,156 @@ nav {
     font-size: 1.5rem;
     padding: 0;
     margin-bottom: 15px;
+}
+
+hr {
+    margin: 2.5rem 0;
+    background: linear-gradient( to right, rgba(249, 105, 14, 1)0%, rgba(102, 51, 153, 1)100%);
+    border: 0;
+    height: 1px;
+}
+
+
+/* Skills Page */
+
+.skills {
+    width: 100%;
+    min-height: 100vh;
+    max-width: 70rem;
+    margin: auto;
+}
+
+.title {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 2rem;
+    color: rgba(249, 105, 14, 1);
+    background: linear-gradient( to right, rgba(249, 105, 14, 1)0%, rgba(102, 51, 153, 1)100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skill-intro {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.skills .container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.skills-list h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgba(249, 105, 14, 1);
+    background: linear-gradient( to right, rgba(249, 105, 14, 1)0%, rgba(102, 51, 153, 1)100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skills-list {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+    white-space: normal;
+}
+
+hr {
+    margin: 2.5rem 0;
+    background: linear-gradient( to right, rgba(249, 105, 14, 1)0%, rgba(102, 51, 153, 1)100%);
+    border: 0;
+    height: 1px;
+}
+
+
+/* Projects Page */
+
+.projects {
+    width: 100%;
+    min-height: 100vh;
+    max-width: 70rem;
+    margin: auto;
+}
+
+.project-head {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.container {
+    align-items: initial;
+    min-height: 80vh;
+}
+
+.project-list {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.project-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: rgba(249, 105, 14, 1);
+    background: linear-gradient( to right, rgba(249, 105, 14, 1)0%, rgba(102, 51, 153, 1)100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+hr {
+    margin: 2.5rem 0;
+    background: linear-gradient( to right, rgba(249, 105, 14, 1)0%, rgba(102, 51, 153, 1)100%);
+    border: 0;
+    height: 1px;
+}
+
+
+/* Contact Page */
+
+.contact {
+    width: 100%;
+    min-height: 100vh;
+    max-width: 70rem;
+    margin: auto;
+}
+
+.contact-me {
+    font-size: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: rgba(249, 105, 14, 1);
+    background: linear-gradient( to right, rgba(249, 105, 14, 1)0%, rgba(102, 51, 153, 1)100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    align-items: initial;
+    min-height: 80vh;
+}
+
+.content-para {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 6rem;
+}
+
+.email-link {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.whatsapp-link {
+    margin-bottom: 2rem;
 }
 
 hr {
